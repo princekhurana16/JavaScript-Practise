@@ -34,3 +34,34 @@ const myFucntion = function(){
 
 
 console.log(typeof bigNumber);
+
+
+
+console.log(typeof anotherId);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive), Heap (Non-Primitve)
+
+let myYotubename = "princekhuranadotcom"
+
+let anothername = myYotubename
+anothername = "chaiaurcode"
+
+console.log(anothername);
+console.log(myYotubename);
+
+
+let userOne = {
+    email: "princekhurana16@gmail.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "hitest@gamil.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
