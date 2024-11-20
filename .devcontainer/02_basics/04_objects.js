@@ -59,3 +59,38 @@ console.log(Object.entries(tinderUser));
 
 
 console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+
+
+// OObject De - structure 
+
+const course = {
+    coursename: "js in hindi", 
+    price: "999", 
+    courseInstructor: "Prince"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+
+
+// console.log(courseInstructor);
+
+console.log(instructor);
+
+
+// json api
+
+// {
+//    "name": "prince", 
+//    "coursername": "js in hindi",
+//    "price": "free"
+// }
+
+// [
+//    {},
+//    {},
+//    {}
+// ]
