@@ -92,6 +92,8 @@ consumePromiseFive()
 
 //getAllUsers()
 
+//fetch 
+
 fetch('https://api.github.com/users/princekhurana16')
 .then((response) => {
     return response.json()
